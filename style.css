@@ -1,14 +1,41 @@
+/* GLOBAL RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* GLOBAL STYLES */
 body {
   font-family: "Segoe UI", Tahoma, sans-serif;
   background-color: #f2f4f8;
   color: #333;
   line-height: 1.7;
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #1e3c72;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul li {
+  margin-bottom: 8px;
 }
 
 /* HERO SECTION */
@@ -26,7 +53,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* NAVBAR */
+/* NAVIGATION */
 nav {
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -60,10 +87,11 @@ main {
   padding: 20px;
 }
 
-section {
+/* REUSABLE CARD CLASS */
+.card {
   background-color: white;
-  margin-bottom: 25px;
   padding: 25px;
+  margin-bottom: 25px;
   border-radius: 10px;
 }
 
